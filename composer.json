@@ -1,0 +1,30 @@
+{
+    "name": "xiuxin/payment",
+    "description": "payment patch for webman",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "修心",
+            "email": "1151468007@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "ext-xml": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src/"
+        }
+    }
+}

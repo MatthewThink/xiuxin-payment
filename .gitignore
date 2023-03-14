@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+/codecept.phar
+/examples/test.php
+/examples/wx/pem
+/vendor/
