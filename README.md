@@ -11,9 +11,9 @@ payment php7.4 wenbeman补丁优化
 
 #### 安装
 
-1.  composer require bdhert/payment
-2.  开发版：composer require bdhert/payment:"dev-master"
-3.  基础版：composer require bdhert/payment:"^0.1"
+1.  composer require xiuxin/payment
+2.  开发版：composer require xiuxin/payment:"dev-master"
+3.  基础版：composer require bdhert/payment:"^1.0.1"
 
 #### 配置
 
