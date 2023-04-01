@@ -28,3 +28,7 @@ payment php7.4 wenbeman补丁优化
 
 1. 2019-04: **提醒：微信CA证书进行了更新，请更新项目到最新版本。否则5月29日后，将无法支付**
 > 官方公告： https://pay.weixin.qq.com/index.php/public/cms/content_detail?lang=zh&id=56602
+
+
+##更维护记录
+ 1.增加workman核心类依赖 支付回调获取参数 兼容workman 
