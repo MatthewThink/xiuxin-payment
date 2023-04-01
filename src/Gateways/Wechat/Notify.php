@@ -74,8 +74,8 @@ class Notify extends WechatBaseObject
         $data = isset($GLOBALS['HTTP_RAW_POST_DATA']) ? $GLOBALS['HTTP_RAW_POST_DATA'] : @file_get_contents("php://input"); // 等同于微信提供的：$GLOBALS['HTTP_RAW_POST_DATA']
         if (empty($data)) {
             # 如果没有数据，直接返回失败
-            $xml = request()->rawBody();           //用rawBody()方法获取回调数据
-            if (empty($xml)) {
+            $data = request()->rawBody();           //用rawBody()方法获取回调数据
+            if (empty($data)) {
                 return false;
             }
         }
