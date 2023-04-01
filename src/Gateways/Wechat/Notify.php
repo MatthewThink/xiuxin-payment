@@ -67,6 +67,7 @@ class Notify extends WechatBaseObject
         ];
     }
 
+
     protected function getNotifyData()
     {
         // php://input 带来的内存压力更小
