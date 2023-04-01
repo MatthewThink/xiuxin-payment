@@ -31,5 +31,5 @@ payment php7.4 wenbeman补丁优化
 
 
 ##更维护记录
- 1.增加workman核心类依赖 支付回调获取参数 兼容workman 
- 2. 更新 wechat pay  getNotifyData
+1. 增加workman核心类依赖 支付回调获取参数 兼容workman 
+2. 更新 wechat pay  getNotifyData
